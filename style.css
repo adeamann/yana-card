@@ -54,7 +54,7 @@ body {
 .messenger{
   display: flex;
   align-content: center;
-  height: 150px;
+  height: 80px;
   width: 150px;
 }
 
