@@ -2,55 +2,64 @@
   margin: 0;
   padding: 0;
 }
-@media (min-width: 300px) {
-  .header {
-    width: 100%;
-    min-width: 200px;
-  }
-}
+
 body {
   margin: 0 auto;
-  background: #ffffff;
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: 1024px;
+  background: #ffffff;
 }
 
 .header {
-  background: #009B95;
-  border-radius: 0 0 10px 10px;
   padding: 50px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 10px 10px;
 }
-.header__img {
+
+.header__img {  
   height: 150px;
   width: 150px;
   border-radius: 50%;
 }
+
 .header__title {
-  color: #ffffff;
+
 }
+
 .main {
+  margin-top: 10px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
+
 .main__messeger {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  justify-content: space-around;
   align-items: center;
 }
+
 .messenger{
-  height: 130px;
-  width: 100px;
-  background: #33CDC7;
+  display: flex;
+  align-content: center;
+  height: 150px;
+  width: 150px;
 }
+
 .messenger__img {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
