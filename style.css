@@ -7,11 +7,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+@media screen and (max-width: 800px) {
+  .page {
+    max-width: 800px;
+  }
+}
+
 .page {
   margin: 0 auto;
   min-height: 100%;
   max-width: 1024px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   background: #ffffff;
