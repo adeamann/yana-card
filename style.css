@@ -80,10 +80,14 @@ body {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.messenger__item:hover {
+  background: #f5f5f5;
+}
+
 .messenger__link {
   padding: 5px;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #445162;
   text-decoration: none;
@@ -99,8 +103,11 @@ body {
   text-decoration: none;
 }
 
+.messenger__link h3 {
+  margin-left: 15px;
+}
+
 .messenger__img {
-  padding-right: 15px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
